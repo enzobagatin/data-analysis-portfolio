@@ -1,6 +1,6 @@
 # Projeto 01 — Salary vs Cost of Living
 
-## 📌 Contexto
+## * Contexto
 Salários elevados nem sempre significam melhor qualidade de vida.  
 Este projeto tem como objetivo analisar salários médios na área de tecnologia
 em diferentes países e ajustá-los pelo custo de vida, buscando estimar
@@ -11,7 +11,7 @@ e Jupyter Notebook.
 
 ---
 
-## 🎯 Objetivos da Análise
+## * Objetivos da Análise
 - Comparar salários médios em tecnologia entre países
 - Avaliar o impacto do custo de vida sobre o salário nominal
 - Estimar o poder de compra relativo por país
@@ -19,7 +19,7 @@ e Jupyter Notebook.
 
 ---
 
-## 📊 Fontes de Dados
+## * Fontes de Dados
 - **Global Tech Salary Dataset** — dados salariais globais na área de tecnologia
 - **Cost of Living Index by Country (2024)** — índice de custo de vida por país
 
@@ -27,7 +27,7 @@ Ambos os datasets foram obtidos a partir da plataforma Kaggle.
 
 ---
 
-## 🧠 Metodologia
+## * Metodologia
 1. Exploração inicial dos dados salariais
 2. Definição de critério mínimo de amostra (≥ 50 registros por país)
 3. Cálculo de salários médios por país
@@ -47,7 +47,7 @@ com ressalvas quanto à robustez estatística.
 
 ---
 
-## 📈 Principais Resultados
+## * Principais Resultados
 - Estados Unidos e Canadá apresentam os maiores salários médios nominais
 - Ao ajustar pelo custo de vida, o Canadá apresentou o maior poder de compra médio
 - Salários mais altos não garantem necessariamente melhor poder de compra
@@ -56,14 +56,14 @@ mesmo com custo de vida mais baixo
 
 ---
 
-## ⚠️ Limitações
+## * Limitações
 - A análise considera médias, não a distribuição completa dos salários
 - O índice de custo de vida é uma métrica relativa e não representa gastos individuais
 - Diferenças regionais dentro de um mesmo país não foram consideradas
 
 ---
 
-## 🛠️ Ferramentas Utilizadas
+## * Ferramentas Utilizadas
 - Python
 - Pandas
 - Matplotlib
@@ -71,7 +71,7 @@ mesmo com custo de vida mais baixo
 
 ---
 
-## 📁 Estrutura do Projeto
+## * Estrutura do Projeto
 project_01_salary_vs_cost_of_living/
 ├── data/
 │ ├── Global_Tech_Salary.txt
